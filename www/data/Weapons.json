@@ -1,0 +1,3453 @@
+[
+    null,
+    {
+        "id": 1,
+        "animationId": 1,
+        "description": "A weapon modified from Fumika's favorite item, it shoots a beam to defeat\nenemies. It is not suitable for hitting people as it is fragile.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "N. Jidori Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            5,
+            0,
+            5,
+            0,
+            0,
+            0
+        ],
+        "price": 50,
+        "wtypeId": 2
+    },
+    {
+        "id": 2,
+        "animationId": 1,
+        "description": "High attack power in exchange for decreased speed.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Heavy Rod (Test Version)",
+        "note": "",
+        "params": [
+            0,
+            0,
+            35,
+            0,
+            0,
+            0,
+            -6,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 2
+    },
+    {
+        "id": 3,
+        "animationId": 1,
+        "description": "Beam attack power +25%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 1.25
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Flash Rod (Not Used)",
+        "note": "",
+        "params": [
+            0,
+            0,
+            12,
+            0,
+            28,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 4,
+        "animationId": 1,
+        "description": "Critical Rate +50%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 2,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Critical Rod (Not Used)",
+        "note": "",
+        "params": [
+            0,
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 5,
+        "animationId": 1,
+        "description": "Beam attack power +25%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 1.25
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Flash Rod II",
+        "note": "",
+        "params": [
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 6,
+        "animationId": 1,
+        "description": "Physical attack power +25%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.25
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Spike Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 7,
+        "animationId": 1,
+        "description": "Enemy Item Drop Rate UP",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 64,
+                "dataId": 5,
+                "value": 1
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Paripistaff (Not for use)",
+        "note": "",
+        "params": [
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 800,
+        "wtypeId": 2
+    },
+    {
+        "id": 8,
+        "animationId": 1,
+        "description": "Popularity +1 at the end of the battle.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Kakusan Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000,
+        "wtypeId": 2
+    },
+    {
+        "id": 9,
+        "animationId": 6,
+        "description": "Flame Resistance +30%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.7
+            }
+        ],
+        "iconIndex": 97,
+        "name": "Enjoukeshimasu",
+        "note": "",
+        "params": [
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 10,
+        "animationId": 6,
+        "description": "Occasionally grants skill seal",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 32,
+                "dataId": 6,
+                "value": 1
+            }
+        ],
+        "iconIndex": 97,
+        "name": "FFGUY",
+        "note": "",
+        "params": [
+            0,
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 11,
+        "animationId": 6,
+        "description": "Popularity +1 at the end of the battle.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 97,
+        "name": "Kakusan Iine Bow",
+        "note": "",
+        "params": [
+            0,
+            0,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 12,
+        "animationId": 6,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 97,
+        "name": "True Jidori Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 13,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 14,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 15,
+        "animationId": 6,
+        "description": "Student bag designated by the private Furasa school.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 97,
+        "name": "School Bag",
+        "note": "",
+        "params": [
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 16,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 17,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "２章テスト用",
+        "note": "",
+        "params": [
+            70,
+            35,
+            12,
+            11,
+            16,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 2
+    },
+    {
+        "id": 18,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "２章テスト用",
+        "note": "",
+        "params": [
+            70,
+            35,
+            12,
+            11,
+            16,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 9
+    },
+    {
+        "id": 19,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 20,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 96,
+        "name": "Test Weapon",
+        "note": "",
+        "params": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 2
+    },
+    {
+        "id": 21,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 22,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "1章用武器",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 23,
+        "animationId": 1,
+        "description": "A weapon modified from Fumika's favorite item, it shoots a beam to defeat\nenemies. It is not suitable for hitting people as it is fragile.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "N. Jidori Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            5,
+            0,
+            5,
+            0,
+            0,
+            0
+        ],
+        "price": 50,
+        "wtypeId": 2
+    },
+    {
+        "id": 24,
+        "animationId": 1,
+        "description": "May cause the enemy to be stunned with low probability (20%)",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 32,
+                "dataId": 22,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Stun Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            6,
+            0,
+            6,
+            0,
+            0,
+            0
+        ],
+        "price": 300,
+        "wtypeId": 2
+    },
+    {
+        "id": 25,
+        "animationId": 1,
+        "description": "Beam attack power +25%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.25
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Photo Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            2,
+            0,
+            13,
+            0,
+            0,
+            0
+        ],
+        "price": 300,
+        "wtypeId": 2
+    },
+    {
+        "id": 26,
+        "animationId": 1,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Reinforced Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            10,
+            0,
+            6,
+            0,
+            0,
+            0
+        ],
+        "price": 300,
+        "wtypeId": 2
+    },
+    {
+        "id": 27,
+        "animationId": 1,
+        "description": "Beam attack power +25%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.25
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Flash Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            12,
+            0,
+            28,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 28,
+        "animationId": 1,
+        "description": "Critical Rate +20%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 2,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Critical Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 29,
+        "animationId": 1,
+        "description": "Enemy Item Drop Rate UP",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 64,
+                "dataId": 5,
+                "value": 1
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Paripistaff",
+        "note": "",
+        "params": [
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 800,
+        "wtypeId": 2
+    },
+    {
+        "id": 30,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "２章武器用",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 31,
+        "animationId": 1,
+        "description": "You can get a decent RUN from dismantling.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Silver Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 2
+    },
+    {
+        "id": 32,
+        "animationId": 4,
+        "description": "Attack becomes ice attribute.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 5,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Ice Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            12,
+            0,
+            12,
+            0,
+            0,
+            0
+        ],
+        "price": 600,
+        "wtypeId": 2
+    },
+    {
+        "id": 33,
+        "animationId": 1,
+        "description": "Attack Power +10%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Giant Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            16,
+            0,
+            3,
+            0,
+            0,
+            0
+        ],
+        "price": 600,
+        "wtypeId": 2
+    },
+    {
+        "id": 34,
+        "animationId": 1,
+        "description": "High attack power but agility decreases.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Heavy Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            30,
+            0,
+            3,
+            0,
+            -20,
+            0
+        ],
+        "price": 600,
+        "wtypeId": 2
+    },
+    {
+        "id": 35,
+        "animationId": 1,
+        "description": "Special Attack Power +10%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.1
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Sparkling Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            15,
+            0,
+            34,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 36,
+        "animationId": 1,
+        "description": "Special Attack Power +20%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.2
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Shining Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            15,
+            0,
+            42,
+            0,
+            0,
+            0
+        ],
+        "price": 500,
+        "wtypeId": 2
+    },
+    {
+        "id": 37,
+        "animationId": 1,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Megal rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            26,
+            0,
+            8,
+            0,
+            0,
+            0
+        ],
+        "price": 600,
+        "wtypeId": 2
+    },
+    {
+        "id": 38,
+        "animationId": 1,
+        "description": "Weapon adjusted by Alpha. Performance is average.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Alpha Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            22,
+            0,
+            24,
+            0,
+            0,
+            0
+        ],
+        "price": 600,
+        "wtypeId": 2
+    },
+    {
+        "id": 39,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 3 Weapons",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 40,
+        "animationId": 1,
+        "description": "You can get a considerable amount of RUN from dismantling.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Goldenrod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 5000,
+        "wtypeId": 2
+    },
+    {
+        "id": 41,
+        "animationId": 8,
+        "description": "Attack becomes fire attribute.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 3,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Fire Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            18,
+            0,
+            28,
+            0,
+            0,
+            0
+        ],
+        "price": 600,
+        "wtypeId": 2
+    },
+    {
+        "id": 42,
+        "animationId": 1,
+        "description": "Attack Power +10%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Mighty Staff",
+        "note": "",
+        "params": [
+            0,
+            0,
+            32,
+            0,
+            6,
+            0,
+            0,
+            0
+        ],
+        "price": 800,
+        "wtypeId": 2
+    },
+    {
+        "id": 43,
+        "animationId": 1,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Gigantic Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            40,
+            0,
+            12,
+            0,
+            0,
+            0
+        ],
+        "price": 700,
+        "wtypeId": 2
+    },
+    {
+        "id": 44,
+        "animationId": 1,
+        "description": "Special Attack Power +20%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.2
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Magical Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            20,
+            0,
+            58,
+            0,
+            0,
+            0
+        ],
+        "price": 800,
+        "wtypeId": 2
+    },
+    {
+        "id": 45,
+        "animationId": 1,
+        "description": "Attack Power +10%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Winning Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            32,
+            0,
+            26,
+            0,
+            0,
+            0
+        ],
+        "price": 800,
+        "wtypeId": 9
+    },
+    {
+        "id": 46,
+        "animationId": 1,
+        "description": "Evasion +25%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.25
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Feather Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            32,
+            0,
+            26,
+            0,
+            0,
+            0
+        ],
+        "price": 800,
+        "wtypeId": 9
+    },
+    {
+        "id": 47,
+        "animationId": 1,
+        "description": "Special Attack Power +10%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 4,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Spark Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            16,
+            0,
+            38,
+            0,
+            0,
+            0
+        ],
+        "price": 800,
+        "wtypeId": 9
+    },
+    {
+        "id": 48,
+        "animationId": 1,
+        "description": "Special Attack Power +20%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 4,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.2
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Electron Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            20,
+            0,
+            44,
+            0,
+            0,
+            0
+        ],
+        "price": 800,
+        "wtypeId": 9
+    },
+    {
+        "id": 49,
+        "animationId": 1,
+        "description": "Attack Power +20%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.2
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Spin Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            32,
+            0,
+            22,
+            0,
+            0,
+            0
+        ],
+        "price": 800,
+        "wtypeId": 9
+    },
+    {
+        "id": 50,
+        "animationId": 1,
+        "description": "Customized weapon by Beta. A masterpiece created to compete against Alpha\nRod.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Beta Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            34,
+            0,
+            30,
+            0,
+            0,
+            0
+        ],
+        "price": 1200,
+        "wtypeId": 2
+    },
+    {
+        "id": 51,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 4 Weapons",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 52,
+        "animationId": 1,
+        "description": "You can get a large amount of RUN through dismantling.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Platinum Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 10000,
+        "wtypeId": 2
+    },
+    {
+        "id": 53,
+        "animationId": 1,
+        "description": "Versatile Staff",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.15
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.15
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Multi-rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            26,
+            0,
+            26,
+            0,
+            0,
+            0
+        ],
+        "price": 3600,
+        "wtypeId": 2
+    },
+    {
+        "id": 54,
+        "animationId": 1,
+        "description": "Special Attack Power +10%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Spiritual Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            26,
+            0,
+            54,
+            0,
+            0,
+            0
+        ],
+        "price": 4000,
+        "wtypeId": 2
+    },
+    {
+        "id": 55,
+        "animationId": 1,
+        "description": "Attack Power +20%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.2
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Destroy Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            55,
+            0,
+            16,
+            0,
+            0,
+            0
+        ],
+        "price": 4200,
+        "wtypeId": 2
+    },
+    {
+        "id": 56,
+        "animationId": 1,
+        "description": "May reflect enemy's special attacks.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 5,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Mirror Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            41,
+            0,
+            28,
+            0,
+            0,
+            0
+        ],
+        "price": 3800,
+        "wtypeId": 2
+    },
+    {
+        "id": 57,
+        "animationId": 1,
+        "description": "Critical Rate +20%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 2,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Needle Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            32,
+            0,
+            12,
+            0,
+            0,
+            0
+        ],
+        "price": 3400,
+        "wtypeId": 9
+    },
+    {
+        "id": 58,
+        "animationId": 1,
+        "description": "Physical attacks become electric attribute Special attack power +10%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 4,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Lightning Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            25,
+            0,
+            48,
+            0,
+            0,
+            0
+        ],
+        "price": 3800,
+        "wtypeId": 9
+    },
+    {
+        "id": 59,
+        "animationId": 1,
+        "description": "Evasion rate increases by 50%.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Quick Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            40,
+            0,
+            40,
+            0,
+            0,
+            0
+        ],
+        "price": 4400,
+        "wtypeId": 9
+    },
+    {
+        "id": 60,
+        "animationId": 1,
+        "description": "Accuracy -30% Attack Power +20%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": -0.3
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.2
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Rampage Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            64,
+            0,
+            12,
+            0,
+            0,
+            0
+        ],
+        "price": 4800,
+        "wtypeId": 9
+    },
+    {
+        "id": 61,
+        "animationId": 1,
+        "description": "Attack Power +10%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Tiger Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            52,
+            0,
+            18,
+            0,
+            0,
+            0
+        ],
+        "price": 4200,
+        "wtypeId": 9
+    },
+    {
+        "id": 62,
+        "animationId": 1,
+        "description": "Customized weapon by Beta. A masterpiece created to counter Ninfolia.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 140,
+        "name": "Beta Boots",
+        "note": "",
+        "params": [
+            0,
+            0,
+            42,
+            0,
+            36,
+            0,
+            0,
+            0
+        ],
+        "price": 1200,
+        "wtypeId": 9
+    },
+    {
+        "id": 63,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 5 Weapons",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 64,
+        "animationId": 1,
+        "description": "You can obtain a large amount of RAN through dismantling.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Diamond Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 30000,
+        "wtypeId": 2
+    },
+    {
+        "id": 65,
+        "animationId": 8,
+        "description": "Physical attack becomes Flame attribute Special attack power +10%",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 3,
+                "value": 0
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Blast Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            50,
+            0,
+            60,
+            0,
+            0,
+            0
+        ],
+        "price": 4800,
+        "wtypeId": 2
+    },
+    {
+        "id": 66,
+        "animationId": 1,
+        "description": "It has a\nchance to inflict confusion, charm, silence, and sleep on the opponent.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 32,
+                "dataId": 8,
+                "value": 0.1
+            },
+            {
+                "code": 32,
+                "dataId": 9,
+                "value": 0.1
+            },
+            {
+                "code": 32,
+                "dataId": 6,
+                "value": 0.1
+            },
+            {
+                "code": 32,
+                "dataId": 10,
+                "value": 0.1
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Disaster Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            48,
+            0,
+            52,
+            0,
+            0,
+            0
+        ],
+        "price": 6000,
+        "wtypeId": 2
+    },
+    {
+        "id": 67,
+        "animationId": 1,
+        "description": "A weapon that was modified from Fumika's favorite item. Through repeated\nmodifications, it transformed into an abnormal weapon.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "True Jidori Rod",
+        "note": "",
+        "params": [
+            0,
+            0,
+            75,
+            0,
+            75,
+            0,
+            0,
+            0
+        ],
+        "price": 10000,
+        "wtypeId": 2
+    },
+    {
+        "id": 68,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 69,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 70,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 71,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 72,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 73,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 74,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 75,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 76,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 77,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 78,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 79,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 80,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 81,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 82,
+        "animationId": 1,
+        "description": "It has a\nchance to inflict confusion, charm, silence, and sleep on the opponent.",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 109,
+        "name": "Test Weapon",
+        "note": "",
+        "params": [
+            0,
+            0,
+            110,
+            0,
+            18,
+            0,
+            0,
+            0
+        ],
+        "price": 2000,
+        "wtypeId": 2
+    },
+    {
+        "id": 83,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 84,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 85,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 86,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 87,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 88,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 89,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 90,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 91,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 92,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 93,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 94,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 95,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 96,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 97,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 98,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 99,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    },
+    {
+        "id": 100,
+        "animationId": 0,
+        "description": "",
+        "etypeId": 1,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0,
+        "wtypeId": 0
+    }
+]

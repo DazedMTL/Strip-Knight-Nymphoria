@@ -1,0 +1,5090 @@
+[
+    null,
+    {
+        "id": 1,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "iconIndex": 1,
+        "maxTurns": 1,
+        "message1": " fell down!",
+        "message2": "Defeated!",
+        "message3": "",
+        "message4": "Stood up!",
+        "minTurns": 1,
+        "motion": 3,
+        "name": "Defeated",
+        "note": "ステート１番はＨＰが０になったときに\n自動的に付加されます。",
+        "overlay": 0,
+        "priority": 100,
+        "releaseByDamage": false,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 9,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "description": "",
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Defense",
+        "note": "",
+        "overlay": 0,
+        "priority": 0,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": true,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100,
+        "traits": [
+            {
+                "code": 62,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 14,
+                "dataId": 83,
+                "value": 1
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "description": "",
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Immortal",
+        "note": "",
+        "overlay": 0,
+        "priority": 0,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 1,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "iconIndex": 2,
+        "maxTurns": 5,
+        "message1": " the suit melted away",
+        "message2": "",
+        "message3": "",
+        "message4": "The effect of the solvent has worn off",
+        "minTurns": 3,
+        "motion": 1,
+        "overlay": 1,
+        "name": "Erosion",
+        "note": "",
+        "priority": 50,
+        "releaseByDamage": false,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100,
+        "traits": []
+    },
+    {
+        "id": 5,
+        "autoRemovalTiming": 1,
+        "chanceByDamage": 100,
+        "iconIndex": 3,
+        "maxTurns": 5,
+        "message1": " is closed in darkness!",
+        "message2": "Closed it in the darkness!",
+        "message3": "",
+        "message4": "The darkness disappeared!",
+        "minTurns": 3,
+        "motion": 1,
+        "name": "Darkness",
+        "note": "",
+        "overlay": 2,
+        "priority": 60,
+        "releaseByDamage": false,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": -0.5
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "autoRemovalTiming": 1,
+        "chanceByDamage": 100,
+        "iconIndex": 4,
+        "maxTurns": 5,
+        "message1": " went silent!",
+        "message2": "Silenced!",
+        "message3": "",
+        "message4": "The silence was broken!",
+        "minTurns": 3,
+        "motion": 1,
+        "name": "Silence",
+        "note": "",
+        "overlay": 3,
+        "priority": 65,
+        "releaseByDamage": false,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100,
+        "traits": [
+            {
+                "code": 42,
+                "dataId": 1,
+                "value": 0
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "autoRemovalTiming": 1,
+        "chanceByDamage": 50,
+        "iconIndex": 5,
+        "maxTurns": 4,
+        "message1": " was furious!",
+        "message2": "Made furious!",
+        "message3": "",
+        "message4": "Returned to me!",
+        "minTurns": 2,
+        "motion": 1,
+        "name": "Rage",
+        "note": "",
+        "overlay": 4,
+        "priority": 70,
+        "releaseByDamage": false,
+        "removeAtBattleEnd": true,
+        "removeByDamage": true,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 1,
+        "stepsToRemove": 100,
+        "traits": []
+    },
+    {
+        "id": 8,
+        "autoRemovalTiming": 1,
+        "chanceByDamage": 50,
+        "iconIndex": 6,
+        "maxTurns": 4,
+        "message1": " is confused!",
+        "message2": "Caused confusion!",
+        "message3": "",
+        "message4": "Returned to me!",
+        "minTurns": 2,
+        "motion": 1,
+        "name": "Confusion",
+        "note": "",
+        "overlay": 5,
+        "priority": 75,
+        "releaseByDamage": false,
+        "removeAtBattleEnd": true,
+        "removeByDamage": true,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 2,
+        "stepsToRemove": 100,
+        "traits": []
+    },
+    {
+        "id": 9,
+        "autoRemovalTiming": 1,
+        "chanceByDamage": 50,
+        "iconIndex": 7,
+        "maxTurns": 4,
+        "message1": " was fascinated!",
+        "message2": "Captivated!",
+        "message3": "",
+        "message4": "Returned to me!",
+        "minTurns": 2,
+        "motion": 1,
+        "name": "Fascination",
+        "note": "",
+        "overlay": 6,
+        "priority": 80,
+        "releaseByDamage": false,
+        "removeAtBattleEnd": true,
+        "removeByDamage": true,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 3,
+        "stepsToRemove": 100,
+        "traits": []
+    },
+    {
+        "id": 10,
+        "autoRemovalTiming": 1,
+        "chanceByDamage": 100,
+        "iconIndex": 8,
+        "maxTurns": 5,
+        "message1": " slept!",
+        "message2": "Put to sleep!",
+        "message3": "Is sleeping",
+        "message4": "Opened eyes!",
+        "minTurns": 3,
+        "motion": 2,
+        "name": "Sleep",
+        "note": "",
+        "overlay": 7,
+        "priority": 90,
+        "releaseByDamage": true,
+        "removeAtBattleEnd": true,
+        "removeByDamage": true,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": -1
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.7
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.15
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.15
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": " attack and Defense Up!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Shame Mode 1-1",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 12,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.4
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.4
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.3
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": " attack and Defense Up!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Shame Mode 1-2",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 13,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 6,
+                "value": 1
+            }
+        ],
+        "iconIndex": 66,
+        "maxTurns": 3,
+        "message1": " was enveloped in electricity",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Electromagnetic Barrier",
+        "note": "<CE_反撃アニメID:20> ",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 14,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 3,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 59,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Defense has decreased",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Defense down",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 15,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Is covered in thick subcutaneous fat...!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Subcutaneous fat",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 16,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Beam weakness",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 17,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 44,
+                "dataId": 1,
+                "value": 1
+            },
+            {
+                "code": 42,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "iconIndex": 9,
+        "maxTurns": 2,
+        "message1": " is restrained and unable to move",
+        "message2": "",
+        "message3": "Is restrained",
+        "message4": "",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "Restraint",
+        "note": "",
+        "overlay": 0,
+        "priority": 100,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 18,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 17,
+                "value": 1
+            }
+        ],
+        "iconIndex": 9,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Is clad in lightning!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Lightning attack warning",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 19,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 6,
+                "value": 1
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 43,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Activated electric barrier!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Thunder Strike Barrier",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 20,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 1
+            }
+        ],
+        "iconIndex": 69,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Soared high into the sky",
+        "message3": "Is circling in the sky",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Flight",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 21,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 3
+            }
+        ],
+        "iconIndex": 34,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Gliding posture",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 22,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 9,
+        "maxTurns": 2,
+        "message1": "",
+        "message2": "Is numb",
+        "message3": "",
+        "message4": "Adjusted posture",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Stand",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 23,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Dummy",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 24,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 9,
+        "maxTurns": 3,
+        "message1": " entangled by tentacles!",
+        "message2": "",
+        "message3": "Is restrained and unable to move!",
+        "message4": "Escaped from the tentacle's restraint!",
+        "minTurns": 2,
+        "motion": 1,
+        "name": "Tentacle Binding",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 25,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 34,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Suit Enhancement (Attack)",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 26,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.7
+            }
+        ],
+        "iconIndex": 34,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Suit Enhancement (Defense)",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 27,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.5
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 2
+            },
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Suit Enhancement (Maximum Output)",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 28,
+        "autoRemovalTiming": 1,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": -0.1
+            }
+        ],
+        "iconIndex": 9,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Suit malfunction",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 29,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": 0.1
+            }
+        ],
+        "iconIndex": 72,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "再生",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 30,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Was arrested",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Arrested",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 31,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 87,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Stabilizer",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 32,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 58,
+        "maxTurns": 2,
+        "message1": " attack power has decreased",
+        "message2": "Attack power has decreased",
+        "message3": "",
+        "message4": "Attack power has returned to its original state",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "Attack down",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 33,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Hypnosis start",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 34,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 43,
+        "maxTurns": 4,
+        "message1": " defense increased",
+        "message2": "",
+        "message3": "",
+        "message4": "Defense power has been restored",
+        "minTurns": 4,
+        "motion": 0,
+        "name": "Defense Force",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 35,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Ogre 80%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 36,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Ogre 50%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 37,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Ogre 30%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 38,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 0.75
+            }
+        ],
+        "iconIndex": 9,
+        "maxTurns": 3,
+        "message1": " attack power has decreased",
+        "message2": "Attack power has decreased",
+        "message3": "",
+        "message4": "Attack power has returned to its original state",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "Attack Down (Paralyzer)",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 39,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 8,
+                "value": -0.1
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Sucking semen",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 40,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 2,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Cannot be healed",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 41,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.05
+            }
+        ],
+        "iconIndex": 81,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Deployed a physical barrier!",
+        "message3": "",
+        "message4": "The physical barrier has been lifted!",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Physical barrier",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 42,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 82,
+        "maxTurns": 4,
+        "message1": "",
+        "message2": "The outline blends into the surroundings!",
+        "message3": "",
+        "message4": "Appeared!",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Protective coloration",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 43,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 81,
+        "maxTurns": 3,
+        "message1": " deployed barrier (reduces damage by 40)",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Barrier 40",
+        "note": "<barrier:40> ",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 44,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 81,
+        "maxTurns": 3,
+        "message1": " deployed barrier (reduces damage by 100)",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Barrier 100",
+        "note": "<barrier:100> ",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 45,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 9,
+        "maxTurns": 4,
+        "message1": " is numb",
+        "message2": "Is numb",
+        "message3": "Cannot move",
+        "message4": "Can move now",
+        "minTurns": 3,
+        "motion": 1,
+        "name": "Paralysis",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 46,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 3,
+                "value": 2.5
+            }
+        ],
+        "iconIndex": 43,
+        "maxTurns": 3,
+        "message1": " the suit's strength has increased!",
+        "message2": "",
+        "message3": "",
+        "message4": "The suit's strength has returned!",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Increase in strength",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 47,
+        "autoRemovalTiming": 1,
+        "chanceByDamage": 100,
+        "iconIndex": 3,
+        "maxTurns": 5,
+        "message1": "",
+        "message2": "Temporary vision loss occurred",
+        "message3": "",
+        "message4": "Vision returned",
+        "minTurns": 3,
+        "motion": 1,
+        "name": "Flash",
+        "note": "",
+        "overlay": 2,
+        "priority": 60,
+        "releaseByDamage": false,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": -0.5
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 42,
+        "maxTurns": 4,
+        "message1": " attack power has increased",
+        "message2": "",
+        "message3": "",
+        "message4": "Attack power has been restored",
+        "minTurns": 4,
+        "motion": 0,
+        "name": "Increase in attack power",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 49,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.6
+            }
+        ],
+        "iconIndex": 43,
+        "maxTurns": 3,
+        "message1": " defense increased",
+        "message2": "",
+        "message3": "",
+        "message4": "Defense power has been restored",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Defense increased",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 50,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 44,
+        "maxTurns": 4,
+        "message1": " special attack power has increased",
+        "message2": "",
+        "message3": "",
+        "message4": "Special attack power has been restored",
+        "minTurns": 4,
+        "motion": 0,
+        "name": "Special Attack Up",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 51,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 53,
+                "dataId": 3,
+                "value": 1
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Fixed clothing",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 52,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 53,
+                "dataId": 2,
+                "value": 1
+            },
+            {
+                "code": 53,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 53,
+                "dataId": 4,
+                "value": 1
+            },
+            {
+                "code": 53,
+                "dataId": 5,
+                "value": 1
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Equipment fixed",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 53,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 38,
+        "maxTurns": 2,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "Body Slam Warning",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 54,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.7
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.2
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.2
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": " attack and Defense Up!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Shame Mode 2-1",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 55,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.4
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.4
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.4
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.4
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": " attack and Defense Up!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Shame Mode 2-2",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 56,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.7
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.25
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.25
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": " attack and Defense Up!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Shame Mode 3-1",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 57,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.4
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.4
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.5
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": " attack and Defense Up!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Shame Mode 3-2",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 58,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 0.2
+            },
+            {
+                "code": 21,
+                "dataId": 3,
+                "value": 0.2
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 0.2
+            },
+            {
+                "code": 21,
+                "dataId": 5,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 9,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Collar",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 59,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 81,
+        "maxTurns": 1,
+        "message1": " deployed barrier (reduces damage by 30)",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Barrier 30",
+        "note": "<barrier:30> ",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 60,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 81,
+        "maxTurns": 1,
+        "message1": " deployed barrier (reduces damage by 60)",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Barrier 60",
+        "note": "<barrier:60> ",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 61,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 81,
+        "maxTurns": 1,
+        "message1": " deployed barrier (reduces damage by 100)",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Barrier 100",
+        "note": "<barrier:100> ",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 62,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 11,
+        "maxTurns": 3,
+        "message1": " my body froze in fear",
+        "message2": "",
+        "message3": "Unable to use finishing move due to fear",
+        "message4": "Recovered from fear!",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Fear",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 63,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": 0.1
+            }
+        ],
+        "iconIndex": 72,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Healing Aura 1",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 64,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": 0.15
+            }
+        ],
+        "iconIndex": 72,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Healing Aura 2",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 65,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 72,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Healing Aura 3",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 66,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Dummy of Terror",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 67,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 64,
+                "dataId": 4,
+                "value": 1
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Obtain RAN x2",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 68,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 9,
+                "value": 1.15
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Experience gained increased by 15%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 69,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 9,
+                "value": 1.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "30% increase in acquired experience points",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 70,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 9,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Obtained experience points increased by 50%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 71,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 41,
+                "dataId": 5,
+                "value": 1
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Change OK",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 72,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "iconIndex": 2,
+        "maxTurns": 3,
+        "message1": " the suit melted away",
+        "message2": "Poisoned!",
+        "message3": "",
+        "message4": "The effect of the strong acid has worn off",
+        "minTurns": 2,
+        "motion": 1,
+        "overlay": 1,
+        "name": "Strong acid",
+        "note": "",
+        "priority": 50,
+        "releaseByDamage": false,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100,
+        "traits": []
+    },
+    {
+        "id": 73,
+        "autoRemovalTiming": 1,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 44,
+                "dataId": 1,
+                "value": 1
+            },
+            {
+                "code": 42,
+                "dataId": 2,
+                "value": 1
+            }
+        ],
+        "iconIndex": 9,
+        "maxTurns": 2,
+        "message1": " is restrained and unable to move",
+        "message2": "",
+        "message3": "Is restrained",
+        "message4": "",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "Restraint",
+        "note": "",
+        "overlay": 0,
+        "priority": 100,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 74,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 9,
+                "value": 0.15
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "TP recovery state",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 75,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 65,
+        "maxTurns": 2,
+        "message1": " is frozen",
+        "message2": "Is frozen",
+        "message3": "Is frozen",
+        "message4": "The freeze has been lifted",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Frozen",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 76,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.7
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.15
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": " attack and Defense Up!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Abuse Mode 1-1",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 77,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.4
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.4
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": " attack and Defense Up!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Masochist Mode 1-2",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 78,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 13,
+                "dataId": 75,
+                "value": 0.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Freeze Resistance",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 79,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 13,
+                "dataId": 22,
+                "value": 0.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Stun resistance",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 80,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 9,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "Sitting with bad posture",
+        "message3": "",
+        "message4": "Adjusted their posture",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Dizziness",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 81,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 42,
+                "dataId": 1,
+                "value": 1
+            },
+            {
+                "code": 42,
+                "dataId": 2,
+                "value": 1
+            },
+            {
+                "code": 12,
+                "dataId": 3,
+                "value": 0
+            },
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": -1
+            }
+        ],
+        "iconIndex": 9,
+        "maxTurns": 99,
+        "message1": " got entangled in mucus!",
+        "message2": "",
+        "message3": "Is sealed in the mucus, unable to move",
+        "message4": "",
+        "minTurns": 99,
+        "motion": 0,
+        "name": "Restraint",
+        "note": "",
+        "overlay": 0,
+        "priority": 100,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 82,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 44,
+        "maxTurns": 2,
+        "message1": " beam attack power has increased",
+        "message2": "",
+        "message3": "",
+        "message4": "Beam attack power has been restored",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "Beam attribute up",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 83,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 9,
+        "maxTurns": 2,
+        "message1": "",
+        "message2": "Has been thrown off balance!",
+        "message3": "",
+        "message4": "Adjusted posture",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Breaking Resistance",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 84,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.1
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.05
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Attack and Defense +10%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 85,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.2
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.1
+            },
+            {
+                "code": 23,
+                "dataId": 9,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Attack and Defense +20%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 86,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.3
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.15
+            },
+            {
+                "code": 23,
+                "dataId": 9,
+                "value": 1.5
+            },
+            {
+                "code": 64,
+                "dataId": 5,
+                "value": 1
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Attack and defense increased by 30%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 87,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0
+            }
+        ],
+        "iconIndex": 88,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Missile Resistance",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 88,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 1
+            }
+        ],
+        "iconIndex": 73,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Is being protected by the brainwashed masses",
+        "message3": "Brainwashed citizens are gathering around (it)",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Retreat further inside",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 89,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 90,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.5
+            },
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": -0.1
+            }
+        ],
+        "iconIndex": 34,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "Smoke is billowing out of the suit",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Suit Enhancement Malfunction (Attack)",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 91,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.7
+            },
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": -0.1
+            }
+        ],
+        "iconIndex": 34,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "Smoke is billowing out of the suit",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Suit Enhancement Malfunction (Defense)",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 92,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": -0.1
+            }
+        ],
+        "iconIndex": 6,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "The suit is completely malfunctioning!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Suit enhancement malfunction (maximum output)",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 4,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 93,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": -0.25
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "The suit returned to its original form!",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Naked self-damage",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 94,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 95,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 2,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 10,
+        "maxTurns": 1,
+        "message1": " recovery amount has been halved!",
+        "message2": "",
+        "message3": "Is contaminated",
+        "message4": "Recovery amount has returned!",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Contamination",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 96,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 42,
+                "dataId": 1,
+                "value": 1
+            }
+        ],
+        "iconIndex": 20,
+        "maxTurns": 4,
+        "message1": " skill has been sealed!",
+        "message2": "",
+        "message3": "Cannot use skill!",
+        "message4": "Can now shoot skills!",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "Skill Seal",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 97,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.2
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.15
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 42,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "Physical attack has increased! Defense has decreased!",
+        "message3": "Overload state!",
+        "message4": "The overload has been released!",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Overload",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 98,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 3,
+                "value": 0.6
+            }
+        ],
+        "iconIndex": 59,
+        "maxTurns": 4,
+        "message1": " defense power has decreased!",
+        "message2": "",
+        "message3": "",
+        "message4": "Defense power has been restored!",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Nanomachine scattering",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 99,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.1
+            }
+        ],
+        "iconIndex": 81,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "Beam resistance increased by 90%!",
+        "message3": "A beam jammer is deployed around it",
+        "message4": "The beam jammer disappeared!",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Beam Jammer",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 100,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.25
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.75
+            }
+        ],
+        "iconIndex": 34,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Security level has been raised!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Security Level 1",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 101,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 42,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "The security level has been further increased!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Security Level 2",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 102,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.4
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.4
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 2
+            }
+        ],
+        "iconIndex": 43,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "The wool has hardened",
+        "message4": "The wool returned to its original state!",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Wool hardening",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 103,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.5
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 1.5
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 42,
+        "maxTurns": 3,
+        "message1": " attack power increased, defense power decreased",
+        "message2": "",
+        "message3": "",
+        "message4": "Released stance",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Desperate effort",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 104,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 105,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 0,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 1,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 0.9
+            },
+            {
+                "code": 21,
+                "dataId": 3,
+                "value": 0.9
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 0.9
+            },
+            {
+                "code": 21,
+                "dataId": 5,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 7,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Toxic pheromone LV1",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 106,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 0,
+                "value": 0.5
+            },
+            {
+                "code": 21,
+                "dataId": 1,
+                "value": 0.5
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 0.8
+            },
+            {
+                "code": 21,
+                "dataId": 3,
+                "value": 0.8
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 0.8
+            },
+            {
+                "code": 21,
+                "dataId": 5,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 7,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Toxic pheromone LV2",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 107,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 0,
+                "value": 0.3
+            },
+            {
+                "code": 21,
+                "dataId": 1,
+                "value": 0.3
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 3,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 5,
+                "value": 0.7
+            }
+        ],
+        "iconIndex": 7,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Toxic pheromone LV3",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 108,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 109,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "The fog cleared!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Pheromone Barrier LV0",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 110,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.9
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.9
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.9
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.9
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Mist density is 20%",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Pheromone Barrier LV1",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 111,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.8
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.8
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.1
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Mist density at 40%",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Pheromone Barrier LV2",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 112,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.2
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.2
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Mist density at 60%",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Pheromone Barrier LV3",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 113,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.5
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.3
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Mist density at 80%",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Pheromone Barrier LV4",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 114,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.3
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.3
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.3
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.3
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.3
+            },
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.1
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.5
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Mist density at 100%",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Pheromone Barrier LV5",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 115,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 116,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.5
+            },
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": -1
+            }
+        ],
+        "iconIndex": 81,
+        "maxTurns": 2,
+        "message1": " trying to intercept the enemy's attack!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "Lightning Counter",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": true,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 117,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 118,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 5,
+        "message1": "",
+        "message2": "Firepower has increased!",
+        "message3": "",
+        "message4": "Firepower has returned",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Support Action (Attack)",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 119,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 2,
+        "message1": "",
+        "message2": "Locked on target!",
+        "message3": "",
+        "message4": "Lock-on state has been released",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "Lock on",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 120,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 2,
+        "message1": " locked on!",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 2,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 121,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 5,
+                "value": 1
+            }
+        ],
+        "iconIndex": 81,
+        "maxTurns": 5,
+        "message1": "",
+        "message2": "Deployed the reflector!",
+        "message3": "",
+        "message4": "Removed the Reflector!",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Energy Reflector",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 122,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 123,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 61,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 83,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Additional Action",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 124,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 43,
+        "maxTurns": 3,
+        "message1": " defense increased",
+        "message2": "",
+        "message3": "",
+        "message4": "Defense power has been restored",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Mighty Force Attack",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 125,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 43,
+        "maxTurns": 3,
+        "message1": " defense increased",
+        "message2": "",
+        "message3": "",
+        "message4": "Defense power has been restored",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Mighty Force Defense",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 126,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.15
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.05
+            }
+        ],
+        "iconIndex": 42,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Increase dark attack power",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 127,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "A barrier of darkness formed around (them)",
+        "message3": "Is protected by a barrier of darkness",
+        "message4": "The barrier has cracked!",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "All elemental resistances 100%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 128,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.4
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.4
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.4
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.3
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.4
+            },
+            {
+                "code": 11,
+                "dataId": 6,
+                "value": 0.4
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0.3
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0.5
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "A small barrier of darkness formed around it",
+        "message3": "Is protected by a barrier of darkness",
+        "message4": "The barrier completely disappeared!",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "All elemental resistance 50%",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 129,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 61,
+                "dataId": 0,
+                "value": 1
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "2 actions",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 130,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 42,
+        "maxTurns": 4,
+        "message1": " attack power has increased",
+        "message2": "",
+        "message3": "",
+        "message4": "Attack power has been restored",
+        "minTurns": 4,
+        "motion": 0,
+        "name": "Sadie support attack up",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 131,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 7,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.7
+            }
+        ],
+        "iconIndex": 43,
+        "maxTurns": 3,
+        "message1": " defense increased",
+        "message2": "",
+        "message3": "",
+        "message4": "Defense power has been restored",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Masochist Support Defense Up",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 132,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 133,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 0.75
+            },
+            {
+                "code": 21,
+                "dataId": 3,
+                "value": 0.75
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 0.75
+            },
+            {
+                "code": 21,
+                "dataId": 5,
+                "value": 0.75
+            }
+        ],
+        "iconIndex": 7,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "In heat",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 134,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 70,
+        "maxTurns": 1,
+        "message1": " has entered reboot state!",
+        "message2": "",
+        "message3": "",
+        "message4": "Reboot state has been released",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "ReLIFE",
+        "note": "<AR_TempAutoRaise>\n<AR_AutoRaise:1>\n<AR_RaiseHpRate:100>",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 135,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 136,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 38,
+        "maxTurns": 1,
+        "message1": " evasion rate has increased!",
+        "message2": "Evasion rate has increased!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "High Boost",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 137,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.4
+            }
+        ],
+        "iconIndex": 38,
+        "maxTurns": 1,
+        "message1": " evasion rate has significantly increased!",
+        "message2": "Evasion rate has significantly increased!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Full Boost",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 138,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 81,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "Has become stronger against special attacks!",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Heavy Metal Barrier",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 139,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 140,
+        "autoRemovalTiming": 2,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 75,
+        "maxTurns": 3,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 3,
+        "motion": 0,
+        "name": "Transforming",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": true,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 141,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 142,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 143,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 144,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 145,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 146,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.7
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.7
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.5
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Easy mode buff",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 147,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 0.1
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 0.1
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 3
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 3
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Difficulty peaceful buff",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 148,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 1.2
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 1.2
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 0.9
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Difficulty hard debuff",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 149,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 6,
+                "value": 1.5
+            },
+            {
+                "code": 23,
+                "dataId": 7,
+                "value": 1.5
+            },
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 0.85
+            },
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 0.85
+            }
+        ],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "Difficulty Maniac Debuff",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    },
+    {
+        "id": 150,
+        "autoRemovalTiming": 0,
+        "chanceByDamage": 100,
+        "traits": [],
+        "iconIndex": 0,
+        "maxTurns": 1,
+        "message1": "",
+        "message2": "",
+        "message3": "",
+        "message4": "",
+        "minTurns": 1,
+        "motion": 0,
+        "name": "",
+        "note": "",
+        "overlay": 0,
+        "priority": 50,
+        "removeAtBattleEnd": false,
+        "removeByDamage": false,
+        "removeByRestriction": false,
+        "removeByWalking": false,
+        "restriction": 0,
+        "stepsToRemove": 100
+    }
+]

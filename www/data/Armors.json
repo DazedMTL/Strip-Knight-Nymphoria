@@ -1,0 +1,4074 @@
+[
+    null,
+    {
+        "id": 1,
+        "atypeId": 1,
+        "description": "The heroine suit with a slightly embarrassing design, designed by Dr.\nIchijo.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 137,
+        "name": "N. Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 50
+    },
+    {
+        "id": 2,
+        "atypeId": 1,
+        "description": "Well-balanced reinforced armor.",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 137,
+        "name": "Enhancement Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            9,
+            0,
+            3,
+            0,
+            0
+        ],
+        "price": 300
+    },
+    {
+        "id": 3,
+        "atypeId": 1,
+        "description": "Evasion rate +20",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Lightweight Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            5,
+            0,
+            2,
+            0,
+            0
+        ],
+        "price": 300
+    },
+    {
+        "id": 4,
+        "atypeId": 1,
+        "description": "Damage invalid by dissolution solution.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 14,
+                "dataId": 4,
+                "value": 1
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Acid-resistant coating suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            12,
+            0,
+            5,
+            0,
+            0
+        ],
+        "price": 500
+    },
+    {
+        "id": 5,
+        "atypeId": 1,
+        "description": "Fire resistance 80%.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Heat-resistant suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            12,
+            0,
+            3,
+            0,
+            0
+        ],
+        "price": 500
+    },
+    {
+        "id": 6,
+        "atypeId": 1,
+        "description": "Electricity resistance 70%.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.3
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Rubber suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            10,
+            0,
+            4,
+            0,
+            0
+        ],
+        "price": 800
+    },
+    {
+        "id": 7,
+        "atypeId": 1,
+        "description": "Evasion rate +20",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Booster Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            12,
+            0,
+            1,
+            0,
+            0
+        ],
+        "price": 800
+    },
+    {
+        "id": 8,
+        "atypeId": 1,
+        "description": "Armor that has been strengthened evenly.",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 137,
+        "name": "Enhanced Suit II",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            18,
+            0,
+            10,
+            0,
+            0
+        ],
+        "price": 1000
+    },
+    {
+        "id": 9,
+        "atypeId": 1,
+        "description": "Physical resistance 30%.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.7
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Impact-resistant suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            14,
+            0,
+            3,
+            0,
+            0
+        ],
+        "price": 1200
+    },
+    {
+        "id": 10,
+        "atypeId": 1,
+        "description": "Ranged resistance 60%.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.4
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Bulletproof suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            16,
+            0,
+            3,
+            0,
+            0
+        ],
+        "price": 1200
+    },
+    {
+        "id": 11,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 12,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 13,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Body 7",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 14,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Body 8",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 15,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Body 9",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 16,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Body 10",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 17,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 18,
+        "atypeId": 1,
+        "description": "Physical resistance 10%.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Impact-resistant helmet",
+        "note": "<composite:1,i36,1,i37,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 19,
+        "atypeId": 1,
+        "description": "Ranged resistance 10%.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Bulletproof helmet",
+        "note": "<composite:1,i36,1,i38,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 20,
+        "atypeId": 1,
+        "description": "Experience point acquisition rate +20%.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 9,
+                "value": 1.2
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Learning Device",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 21,
+        "atypeId": 1,
+        "description": "Nullify Darkness.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 14,
+                "dataId": 5,
+                "value": 1
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Night Vision Visor",
+        "note": "<composite:1,i40,1,i41,1,i42,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 22,
+        "atypeId": 1,
+        "description": "Accuracy +50%",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 0,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Targeting Assist System",
+        "note": "<composite:1,i39,1,i40,1,i41,1,i42,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 23,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Collar 7",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 24,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Collar 8",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 25,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Collar 9",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 26,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Collar 10",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 27,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 28,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 29,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 30,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 31,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 32,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 33,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 34,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 35,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 36,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 37,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 38,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 39,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 40,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 41,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 42,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 43,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 44,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 45,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 46,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 47,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 48,
+        "atypeId": 3,
+        "description": "The designated school uniform for Fumika's school.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 153,
+        "name": "School uniform",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 49,
+        "atypeId": 2,
+        "description": "Simple white panties with a small pink ribbon attached.",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 136,
+        "name": "Panties",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 50,
+        "atypeId": 2,
+        "description": "Required for the progression of events with classmates.",
+        "etypeId": 4,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 111,
+        "name": "Rotor",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 51,
+        "atypeId": 2,
+        "description": "",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 111,
+        "name": "Rakugaki",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 52,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 53,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 3: Armor",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 54,
+        "atypeId": 1,
+        "description": "DEF+12 SDEF+18",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 137,
+        "name": "Tactical Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            12,
+            0,
+            18,
+            0,
+            0
+        ],
+        "price": 2400
+    },
+    {
+        "id": 55,
+        "atypeId": 1,
+        "description": "ATK+12 DEF+20",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 137,
+        "name": "Powered suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            12,
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3000
+    },
+    {
+        "id": 56,
+        "atypeId": 1,
+        "description": "Recover 5% of max HP every turn.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 7,
+                "value": 0.05
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Regene Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            16,
+            0,
+            10,
+            0,
+            0
+        ],
+        "price": 2800
+    },
+    {
+        "id": 57,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 58,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 4: Armor",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 59,
+        "atypeId": 1,
+        "description": "DEF+28",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 137,
+        "name": "Solid Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            28,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 3800
+    },
+    {
+        "id": 60,
+        "atypeId": 1,
+        "description": "Well-balanced reinforced armor DEF+22 SDEF+14",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 137,
+        "name": "Enhanced Suit III",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            22,
+            0,
+            14,
+            0,
+            0
+        ],
+        "price": 4000
+    },
+    {
+        "id": 61,
+        "atypeId": 1,
+        "description": "Gun, Fire, Electric, and Ice resistance 30% DEF+20 SDEF+8",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.7
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Mighty Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            20,
+            0,
+            8,
+            0,
+            0
+        ],
+        "price": 4600
+    },
+    {
+        "id": 62,
+        "atypeId": 1,
+        "description": "Beam resistance 100% DEF+18 SDEF+24",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Mirage Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            18,
+            0,
+            24,
+            0,
+            0
+        ],
+        "price": 4000
+    },
+    {
+        "id": 63,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 5: Armor",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 64,
+        "atypeId": 1,
+        "description": "ATK+18 DEF+24",
+        "etypeId": 3,
+        "traits": [],
+        "iconIndex": 137,
+        "name": "Powered Suit 2",
+        "note": "",
+        "params": [
+            0,
+            0,
+            18,
+            24,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 6000
+    },
+    {
+        "id": 65,
+        "atypeId": 1,
+        "description": "Evasion +20 DEF +16 SDEF +12",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.2
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Master Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            16,
+            0,
+            12,
+            0,
+            0
+        ],
+        "price": 8500
+    },
+    {
+        "id": 66,
+        "atypeId": 1,
+        "description": "Beam, shooting, fire, electric, and ice resistance 30%. DEF +26, SDEF +20.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.7
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.7
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Ultimate Suit",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            26,
+            0,
+            20,
+            0,
+            0
+        ],
+        "price": 10000
+    },
+    {
+        "id": 67,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 68,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 3 Head Equipment",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 69,
+        "atypeId": 1,
+        "description": "Delusions progress and SP recovers by 10% every turn.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 8,
+                "value": 0.1
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Delusional Headband",
+        "note": "<composite:1,i43,1,i44,1,i45,1,i46,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 70,
+        "atypeId": 1,
+        "description": "Prevents all status downs including paralysis, fear, contamination,\nerosion, and strong acid.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 13,
+                "dataId": 45,
+                "value": 0
+            },
+            {
+                "code": 13,
+                "dataId": 62,
+                "value": 0
+            },
+            {
+                "code": 13,
+                "dataId": 95,
+                "value": 0
+            },
+            {
+                "code": 13,
+                "dataId": 72,
+                "value": 0
+            },
+            {
+                "code": 13,
+                "dataId": 4,
+                "value": 0
+            },
+            {
+                "code": 12,
+                "dataId": 0,
+                "value": 0
+            },
+            {
+                "code": 12,
+                "dataId": 1,
+                "value": 0
+            },
+            {
+                "code": 12,
+                "dataId": 2,
+                "value": 0
+            },
+            {
+                "code": 12,
+                "dataId": 3,
+                "value": 0
+            },
+            {
+                "code": 12,
+                "dataId": 4,
+                "value": 0
+            },
+            {
+                "code": 12,
+                "dataId": 5,
+                "value": 0
+            },
+            {
+                "code": 12,
+                "dataId": 6,
+                "value": 0
+            },
+            {
+                "code": 12,
+                "dataId": 7,
+                "value": 0
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Decontamination device",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 71,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 72,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 4 Head Equipment",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 73,
+        "atypeId": 1,
+        "description": "Reduce all damage including physical attacks by 5%.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 1,
+                "value": 0.85
+            },
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.85
+            },
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.85
+            },
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.85
+            },
+            {
+                "code": 11,
+                "dataId": 5,
+                "value": 0.85
+            },
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0.85
+            },
+            {
+                "code": 11,
+                "dataId": 9,
+                "value": 0.85
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Complete Immunity Hat",
+        "note": "<composite:1,i47,1,i48,1,i49,1,i50,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1000
+    },
+    {
+        "id": 74,
+        "atypeId": 1,
+        "description": "Increase TP by 5% every turn.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 9,
+                "value": 0.05
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Kiai Hat",
+        "note": "<composite:1,i48,1,i49,1,i50,2,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1300
+    },
+    {
+        "id": 75,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 76,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 5 Head Equipment",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 77,
+        "atypeId": 1,
+        "description": "Attack power increased by 25%.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 2,
+                "value": 1.25
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Boost Hat",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1600
+    },
+    {
+        "id": 78,
+        "atypeId": 1,
+        "description": "Critical rate +25%",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 2,
+                "value": 0.25
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Critical Hat",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 1400
+    },
+    {
+        "id": 79,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 80,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 1 Access",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 81,
+        "atypeId": 1,
+        "description": "ATK+6　DEF-3",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Aggressor Level 1",
+        "note": "<composite:1,i35,1,i36,1,0,0>\n",
+        "params": [
+            0,
+            0,
+            6,
+            -3,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 50
+    },
+    {
+        "id": 82,
+        "atypeId": 1,
+        "description": "DEF+4",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Additional Armor",
+        "note": "<composite:1,i36,2,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 80
+    },
+    {
+        "id": 83,
+        "atypeId": 1,
+        "description": "SDEF+4",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Tactical Kit Lv1",
+        "note": "<composite:1,i37,2,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0
+        ],
+        "price": 60
+    },
+    {
+        "id": 84,
+        "atypeId": 1,
+        "description": "TP Charge Rate +50% ATK +2",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 5,
+                "value": 1.5
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Knuckle Booster",
+        "note": "<composite:1,i35,1,i38,1,0,0>",
+        "params": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 40
+    },
+    {
+        "id": 85,
+        "atypeId": 1,
+        "description": "Physical damage x2 to Panty Stealer.",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 31,
+                "dataId": 10,
+                "value": 1
+            }
+        ],
+        "iconIndex": 145,
+        "name": "PS Tracker",
+        "note": "<composite:1,i38,2,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 70
+    },
+    {
+        "id": 86,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 87,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 88,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 2 Accessory",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 89,
+        "atypeId": 1,
+        "description": "Special attack power +10%",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.1
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Optical Convergence Lens",
+        "note": "<composite:1,i39,2,i40,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 80
+    },
+    {
+        "id": 90,
+        "atypeId": 1,
+        "description": "Beam resistance 50%.",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.5
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Beam Barrier Generator",
+        "note": "<composite:1,i39,1,i41,1,i42,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 90
+    },
+    {
+        "id": 91,
+        "atypeId": 1,
+        "description": "Reduce SP consumption by 10%.",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 4,
+                "value": 0.9
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Energy efficiency system",
+        "note": "<composite:1,i40,1,i42,2,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 100
+    },
+    {
+        "id": 92,
+        "atypeId": 1,
+        "description": "Fire resistance 20%.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 3,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Heat-resistant shield",
+        "note": "<composite:1,i40,2,i41,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0,
+            0
+        ],
+        "price": 70
+    },
+    {
+        "id": 93,
+        "atypeId": 1,
+        "description": "The skill \"Self-Strip Lv2\" becomes available for use.",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 43,
+                "dataId": 395,
+                "value": 1
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Strip module",
+        "note": "<composite:1,i39,1,i42,2,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 50
+    },
+    {
+        "id": 94,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 95,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 96,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 3 Accessory",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 97,
+        "atypeId": 1,
+        "description": "ATK+10　DEF-5",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Aggressor Lv2",
+        "note": "<composite:1,i43,2,i46,1,0,0>",
+        "params": [
+            0,
+            0,
+            10,
+            -5,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 120
+    },
+    {
+        "id": 98,
+        "atypeId": 1,
+        "description": "DEF+8",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Additional Armor (Strong)",
+        "note": "<composite:1,i44,2,i45,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 110
+    },
+    {
+        "id": 99,
+        "atypeId": 1,
+        "description": "SDEF+8",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Tactical Kit Lv2",
+        "note": "<composite:1,i44,1,i45,2,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            8,
+            0,
+            0
+        ],
+        "price": 100
+    },
+    {
+        "id": 100,
+        "atypeId": 1,
+        "description": "TP Charge Rate +100% ATK +4",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 5,
+                "value": 2
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Knuckle Booster II",
+        "note": "<composite:1,i43,1,i46,2,0,0>",
+        "params": [
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 130
+    },
+    {
+        "id": 101,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 102,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 103,
+        "atypeId": 1,
+        "description": "Electricity resistance 20%.",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 4,
+                "value": 0.8
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Lightning-resistant shield",
+        "note": "<composite:1,i44,1,i46,2,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0,
+            0
+        ],
+        "price": 140
+    },
+    {
+        "id": 104,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 105,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 4 Accessory",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 106,
+        "atypeId": 1,
+        "description": "Critical hit rate -100%, evasion rate +5%.",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 3,
+                "value": 1
+            },
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0.05
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Danger Prediction Module",
+        "note": "<composite:1,i48,1,i49,1,i50,2,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 150
+    },
+    {
+        "id": 107,
+        "atypeId": 1,
+        "description": "ATK+10 DEF+10 SATK+5 SDEF+5",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Universal Module",
+        "note": "<composite:1,i47,1,i48,1,i49,1,i50,1,0,0>",
+        "params": [
+            0,
+            0,
+            10,
+            10,
+            5,
+            5,
+            0,
+            0
+        ],
+        "price": 160
+    },
+    {
+        "id": 108,
+        "atypeId": 1,
+        "description": "Neutralize missile attack.",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 8,
+                "value": 0
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Automatic interception system",
+        "note": "<composite:1,i47,1,i48,1,i49,1,i50,1,0,0>",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 130
+    },
+    {
+        "id": 109,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 110,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 111,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 112,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 113,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Chapter 5 Accessory",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 114,
+        "atypeId": 1,
+        "description": "ATK+14　DEF-7",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Aggressor Level 3",
+        "note": "",
+        "params": [
+            0,
+            0,
+            14,
+            -7,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 180
+    },
+    {
+        "id": 115,
+        "atypeId": 1,
+        "description": "DEF+16 SDEF+8",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Additional Armor (Extreme)",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            16,
+            0,
+            8,
+            0,
+            0
+        ],
+        "price": 200
+    },
+    {
+        "id": 116,
+        "atypeId": 1,
+        "description": "DEF+8 SDEF+16",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Survival Kit Lv3",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            8,
+            0,
+            16,
+            0,
+            0
+        ],
+        "price": 170
+    },
+    {
+        "id": 117,
+        "atypeId": 1,
+        "description": "Special attack power +20%",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 21,
+                "dataId": 4,
+                "value": 1.2
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Optical Convergence Lens II",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 160
+    },
+    {
+        "id": 118,
+        "atypeId": 1,
+        "description": "Beam resistance 90%.",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 11,
+                "dataId": 2,
+                "value": 0.1
+            }
+        ],
+        "iconIndex": 130,
+        "name": "Beam Barrier Generator II",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 90
+    },
+    {
+        "id": 119,
+        "atypeId": 1,
+        "description": "Consumes 100% SP.",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 23,
+                "dataId": 4,
+                "value": 0
+            }
+        ],
+        "iconIndex": 145,
+        "name": "Perpetual Motion Machine",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 190
+    },
+    {
+        "id": 120,
+        "atypeId": 1,
+        "description": "ATK+22　DEF-12",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Aggressor Level 4",
+        "note": "",
+        "params": [
+            0,
+            0,
+            22,
+            -12,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 200
+    },
+    {
+        "id": 121,
+        "atypeId": 1,
+        "description": "DEF+12 SDEF+20",
+        "etypeId": 5,
+        "traits": [],
+        "iconIndex": 145,
+        "name": "Tactical Kit Lv4",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            12,
+            0,
+            20,
+            0,
+            0
+        ],
+        "price": 180
+    },
+    {
+        "id": 122,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 123,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 124,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 125,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 126,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 127,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 128,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 5,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "Test equipment for masochistic adjustment",
+        "note": "",
+        "params": [
+            50,
+            10,
+            20,
+            14,
+            2,
+            4,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 129,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 130,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 131,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 132,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 133,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 134,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 135,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 136,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 137,
+        "atypeId": 1,
+        "description": "The heroine suit with a slightly embarrassing design, designed by Dr.\nIchijo.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 137,
+        "name": "N. Suit Test Version",
+        "note": "",
+        "params": [
+            124,
+            25,
+            34,
+            17,
+            12,
+            10,
+            0,
+            0
+        ],
+        "price": 50
+    },
+    {
+        "id": 138,
+        "atypeId": 1,
+        "description": "The heroine suit with a slightly embarrassing design, designed by Dr.\nIchijo.",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 137,
+        "name": "Chapter 3: N. Suit Test",
+        "note": "",
+        "params": [
+            150,
+            63,
+            44,
+            31,
+            29,
+            11,
+            0,
+            0
+        ],
+        "price": 50
+    },
+    {
+        "id": 139,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 140,
+        "atypeId": 1,
+        "description": "",
+        "etypeId": 3,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "The Strongest Suit",
+        "note": "",
+        "params": [
+            1500,
+            200,
+            0,
+            22,
+            0,
+            22,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 141,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 142,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 143,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 144,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 145,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 146,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 147,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 148,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 149,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    },
+    {
+        "id": 150,
+        "atypeId": 0,
+        "description": "",
+        "etypeId": 2,
+        "traits": [
+            {
+                "code": 22,
+                "dataId": 1,
+                "value": 0
+            }
+        ],
+        "iconIndex": 0,
+        "name": "",
+        "note": "",
+        "params": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "price": 0
+    }
+]
